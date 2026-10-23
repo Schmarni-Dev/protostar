@@ -10,7 +10,7 @@ res-dst := install-dir / appid
 install:
     install -Dm0644 {{ desktop-src }} {{ desktop-dst }}
     install -Dm0644 {{ metainfo-src }} {{ metainfo-dst }}
-	mkdir -p {{ res-dst }}
+    mkdir -p {{ res-dst }}
     install -Dm0644 {{ res-src }}/* {{ res-dst }}
 
 
