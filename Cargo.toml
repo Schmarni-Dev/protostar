@@ -27,5 +27,7 @@ version = "0.53.0-rc.1"
 # git = "https://github.com/StardustXR/molecules.git"
 
 [workspace.dependencies.stardust-xr-asteroids]
-version = "0.53.0-rc.1"
+# version = "0.53.0-rc.1"
 # git = "https://github.com/StardustXR/asteroids.git"
+git = "https://github.com/Schmarni-Dev/asteroids.git"
+branch = "ci_test_bs_stuff"

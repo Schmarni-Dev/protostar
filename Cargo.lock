@@ -2734,8 +2734,7 @@ dependencies = [
 [[package]]
 name = "stardust-xr-asteroids"
 version = "0.53.0-rc.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9e41518b9358c47f16bc0c174bcbe7f5d130deef014b22e0ddb14e929ba048a2"
+source = "git+https://github.com/Schmarni-Dev/asteroids.git?branch=ci_test_bs_stuff#35be430ff14f3ec0b462928a1872aed006af26c6"
 dependencies = [
  "bumpalo",
  "derive-where",
